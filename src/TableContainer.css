@@ -1,0 +1,100 @@
+.table-container {
+  width: 100%;
+}
+.td-version {
+  text-align: right;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 54px;
+  border: 1px solid #DDE3EE;
+  overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DDE3EE; 
+    border-radius: 10px;
+  }
+table th:last-child,
+table td:last-child {
+  position: sticky;
+  right: 0;
+}
+table th:last-child:before,
+table td:last-child:before {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-left: 0.5px solid #DDE3EE;
+}
+
+
+thead {
+  /* background-color: #dde3ee; */
+  height: 40px;
+}
+
+th {
+  border: 1px solid #DDE3EE;
+  text-align: left;
+  padding: 8px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+td {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border-left: 1px solid #DDE3EE; 
+  border-right: 1px solid #DDE3EE; 
+  padding: 8px;
+}
+tbody tr {
+  height: 60px;
+}
+
+tbody tr:hover {
+    /* Your hover styles for tbody go here */
+    background-color: #f7f9fc;
+  }
+
+/* tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+
+
+.action_icon:after {
+    content: '\2807';
+    font-size: 19px;
+    }
+    .action_icon:hover:after {
+      /* background-color: blue; */
+      
+      }

@@ -1,0 +1,11 @@
+/* Add this to your CSS */
+.popover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+  }
+  

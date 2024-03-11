@@ -1,0 +1,40 @@
+.popover-content ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.popover-content li {
+  margin-bottom: 10px; 
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+}
+
+.popover-content li:hover {
+  background-color: #f0f0f0; 
+}
+
+.popover-content li svg {
+  margin-right: 8px; 
+}
+.popover {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  z-index: 999; 
+}
+
+.popover-content {
+  padding: 10px;
+}
+
+.popover-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 998;
+}

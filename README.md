@@ -18,11 +18,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## Features:
 
 ### Pixel perfect design
-### colum filter(onclick of the column filter icon, delete the full column)
+### Column filter(onClick of the column filter icon, delete the full column)
 ### Skeleton for the table 
-### Table data using json mock data
-### Infinite scroll(loading shown)
-### sample test case for the table
+### Dynamically rendering of Table data using JSON mock data.
+### Infinite scroll(loading shown).
+### Sample test case for the table.
 ### onClick of the action, a popup is shown, delete the particlular row.
 ### Feature that could not included (column resize).
 
